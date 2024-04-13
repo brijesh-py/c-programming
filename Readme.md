@@ -14,5 +14,4 @@ git clone https://github.com/brijesh-py/c-programming.git
 
 ### License
 This repository is licensed under the MIT License. See the LICENSE file for details.
-
 **Happy Coding!**
