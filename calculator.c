@@ -2,27 +2,32 @@
 
 void main()
 {
+    // variable declaration
     int num1, num2;
-    char op;
+    char operator;
+
     printf("Enter first Number: ");
     scanf("%d", &num1);
+
     printf("Enter second Number: ");
     scanf("%d", &num2);
+
     printf("Select Operator(+, -, * and/): ");
-    scanf(" %c", &op);
-    if (op == '+')
+    scanf(" %c", &operator);
+
+    if (operator== '+')
     {
         printf("%d + %d = %d", num1, num2, num1 + num2);
     }
-    else if (op == '-')
+    else if (operator== '-')
     {
         printf("%d - %d = %d", num1, num2, num1 - num2);
     }
-    else if (op == '*')
+    else if (operator== '*')
     {
         printf("%d * %d = %d", num1, num2, num1 * num2);
     }
-    else if (op == '/')
+    else if (operator== '/')
     {
         printf("%d / %d = %d", num1, num2, num1 / num2);
     }
