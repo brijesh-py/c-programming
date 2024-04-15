@@ -4,5 +4,8 @@
         "string.h": "c",
         "stdio.h": "c",
         "typeinfo": "c"
-    }
+    },
+    "cSpell.words": [
+        "Ritchie"
+    ]
 }
