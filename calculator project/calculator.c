@@ -1,23 +1,30 @@
 // Function to add two numbers
-double add(double a, double b) {
-    return a + b;
+double add(double number1, double number2)
+{
+    return number1 + number2;
 }
 
 // Function to subtract two numbers
-double subtract(double a, double b) {
-    return a - b;
+double subtract(double number1, double number2)
+{
+    return number1 - number2;
 }
 
-// Function to multiply two numbers
-double multiply(double a, double b) {
-    return a * b;
+// Function to product two numbers
+double product(double number1, double number2)
+{
+    return number1 * number2;
 }
 
-// Function to divide two numbers
-double divide(double a, double b) {
-    if (b != 0) {
-        return a / b;
-    } else {
+// Function to quotient two numbers
+double quotient(double number1, double number2)
+{
+    if (number2 != 0)
+    {
+        return number1 / number2;
+    }
+    else
+    {
         return -1; // Indicate division by zero error
     }
 }
