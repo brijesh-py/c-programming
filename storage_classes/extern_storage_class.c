@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-int a; // Definition of the extern variable 'a'
+int number = 12; // global variable is number
 
-int main() {
+int main()
+{
     printf("Extern Storage Class\n");
     {
-        extern int a; // Declaration of the extern variable 'a'
-        a = 10;
-        printf("a => %d \n", a);
+        extern int number; // Declaration of the extern variable 'number'
+        number = 11;
+        printf("number => %d \n", number); // "with extern variable number is 11"
     }
-    printf("a => %d", a);
+    printf("number => %d", number); // global variable "without extern variable number is 12 and with extern variable number is 11"
 
     return 0; // Explicitly returning 0 from main
 }

@@ -1,18 +1,26 @@
 #include <stdio.h>
+#include <time.h>
 
-void main()
+int main()
 {
-    /*
-    This storage class is used to define local variables that should be stored in a register instead of RAM. However, the compiler can ignore this request, and it's typically used as a hint to the compiler for optimization.
-    */
-    printf("Register Storage Class\n");
+    clock_t start, end;
+    double cpu_time_used;
 
-    register int a = 10;
-    while (a <= 100)
+    start = clock();
+
+    // Your code with loops here
+    register int i = 0;
+    for (i; i < 10000000; i++)
     {
-        printf("I value is %d \n", a);
-        a++;
+        // Loop operations
     }
 
-    return;
+    end = clock();
+
+    cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
+    // register with used approximate time is: 0.006320
+    // without register with used approximate time is: 0.037782
+    printf("CPU time used: %f seconds\n", cpu_time_used);
+
+    return 0;
 }
