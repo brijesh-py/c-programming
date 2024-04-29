@@ -11,6 +11,7 @@ void main()
     scanf("%d", &num2);
 
     sum = num1 + num2;
+    // (float) sum // cat operator
     printf("Ths sum of two numbers: %f", (float)sum);
     return;
 }

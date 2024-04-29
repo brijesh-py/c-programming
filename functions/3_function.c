@@ -17,6 +17,7 @@ void main()
         sum = sum + avg;
         i++;
     }
+    printf("%d\n",i);
     printf("Average of 5 numbers is: %d", average(sum));
 
     return;
