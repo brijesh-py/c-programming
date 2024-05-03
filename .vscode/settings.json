@@ -3,7 +3,8 @@
         "cmath": "c",
         "string.h": "c",
         "stdio.h": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "libc-header-start.h": "c"
     },
     "cSpell.words": [
         "Ritchie",

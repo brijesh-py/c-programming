@@ -21,7 +21,6 @@ void main()
     printf("\nArray of First Element: %d", arr[0]);
     printf("\nArray of Last Element: %d", arr[4]);
     printf("\nArray of 3rd Element: %d", arr[2]);
-
-
+    
     return;
 }
