@@ -4,13 +4,17 @@
         "string.h": "c",
         "stdio.h": "c",
         "typeinfo": "c",
-        "libc-header-start.h": "c"
+        "libc-header-start.h": "c",
+        "compare": "c",
+        "limits": "c",
+        "*.tcc": "c"
     },
     "cSpell.words": [
         "Ritchie",
         "struct"
     ],
     "cSpell.ignoreWords": [
+        "FCIT",
         "clrscr"
     ]
 }

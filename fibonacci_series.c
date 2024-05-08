@@ -10,7 +10,7 @@ int main()
     
     /* The `for` loop in the code snippet is generating the Fibonacci series up to a specified number.
     Here's a breakdown of what each step does within the loop: */
-    for (int i = 1; i <= number + 1; i++)
+    for (int i = 1; i < number + 1; i++)
     {
         printf("%d ", b);
         c = a + b;
